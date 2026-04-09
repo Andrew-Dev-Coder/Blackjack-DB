@@ -315,7 +315,7 @@ choice = choice.lower()
 
 #Get the folder path
 folder_path = os.path.dirname(os.path.abspath(__file__))
-db_path = os.path.join(folder_path, 'Database', 'Data.db')
+db_path = os.path.join(folder_path, 'Database', 'data.db')
         
 #Connect to the database
 conn = sqlite3.connect(db_path)
