@@ -1,0 +1,19 @@
+PRAGMA foreign_keys = ON;
+
+CREATE TABLE "Players" (
+	"userID"	INTEGER NOT NULL,
+	"username"	TEXT NOT NULL DEFAULT 'NONE',
+	"dateOfCreation"	datetime DEFAULT CURRENT_TIMESTAMP,
+	"password"	TEXT NOT NULL DEFAULT 'NONE',
+	PRIMARY KEY("userID" AUTOINCREMENT)
+);
+
+CREATE TABLE "Data" (
+	"dataID"	INTEGER NOT NULL,
+	"playerID"	INTEGER NOT NULL DEFAULT 0,
+	"playerWins"	INTEGER NOT NULL DEFAULT 0,
+	"houseWins"	INTEGER NOT NULL DEFAULT 0,
+	"winPercentage"	TEXT NOT NULL DEFAULT '0%',
+	PRIMARY KEY("dataID" AUTOINCREMENT),
+	FOREIGN KEY("playerID") REFERENCES "Players"("userID")
+);
