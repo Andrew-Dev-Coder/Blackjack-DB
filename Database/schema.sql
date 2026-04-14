@@ -21,7 +21,7 @@ CREATE TABLE "Data" (
 );
 
 -- Uncomment this section to have a populated database
-
+/*
 INSERT INTO "Players" ("userID", "username", "password") 
 VALUES ('Jace', '$argon2id$v=19$m=102400,t=2,p=8$o2II9UcENcc5k5ikpeZyPw$RWOMOY8indklWJPaI3Ri8Q'), 
 (50, 'John', '$argon2id$v=19$m=102400,t=2,p=8$euOZKJyQbR3/t4r5hZBIYQ$XbtHTe5fI1Ay0wt1YqHqmA'), 
@@ -49,3 +49,4 @@ VALUES
 (58, 600, 79, '88.37%'),
 (59, 345, 300, '53.49%'),
 (60, 6, 5, '54.55%');
+*/
