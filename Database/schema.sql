@@ -35,3 +35,16 @@ VALUES ('Jace', '$argon2id$v=19$m=102400,t=2,p=8$o2II9UcENcc5k5ikpeZyPw$RWOMOY8i
 ('58', 'Ray', '$argon2id$v=19$m=102400,t=2,p=8$NBMdGtmdedy2W9w5nQCoag$t3m7E/j0f4PbA2krWgb4QQ'),
 ('59', 'Shawn', '$argon2id$v=19$m=102400,t=2,p=8$/QU7EdsML2+V8ecEz55YXQ$zZMvwxoa3L9UxN6RxAtRbw'),
 ('60', 'Shane', '$argon2id$v=19$m=102400,t=2,p=8$lL2FkOtNLi9sFIsAQcbxaA$DY3ixeZzDNwpnj5cD3V32w');
+
+INSERT INTO "Data" ("playerID", "playerWins", "houseWins", "winPercentage")
+VALUES ('50', ),
+('51', ),
+('52', ),
+('53', ),
+('54', ),
+('55', ),
+('56', ),
+('57', ),
+('58', ),
+('59', ),
+('60', );
