@@ -1,4 +1,4 @@
--- This file is used to create the tables required for the game
+-- This file is used to create the database for ths python game
 
 PRAGMA foreign_keys = ON;
 
