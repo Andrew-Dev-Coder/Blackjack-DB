@@ -23,7 +23,7 @@ CREATE TABLE "Data" (
 -- Uncomment this section to have a populated database
 /*
 INSERT INTO "Players" ("userID", "username", "password") 
-VALUES ('Jace', '$argon2id$v=19$m=102400,t=2,p=8$o2II9UcENcc5k5ikpeZyPw$RWOMOY8indklWJPaI3Ri8Q'), 
+VALUES ('61', 'Jace', '$argon2id$v=19$m=102400,t=2,p=8$o2II9UcENcc5k5ikpeZyPw$RWOMOY8indklWJPaI3Ri8Q'), 
 (50, 'John', '$argon2id$v=19$m=102400,t=2,p=8$euOZKJyQbR3/t4r5hZBIYQ$XbtHTe5fI1Ay0wt1YqHqmA'), 
 (51, 'Joel', '$argon2id$v=19$m=102400,t=2,p=8$JUE+cleDHT8F0eVBNkbLYg$SjbKOn3MS/rLKmuIDNSsMg'), 
 (52, 'Lachlan', '$argon2id$v=19$m=102400,t=2,p=8$JZEVyfyFMu43yAkwpcuLNQ$1I+9c4F76wFUbmklux7s3A'), 
@@ -37,8 +37,7 @@ VALUES ('Jace', '$argon2id$v=19$m=102400,t=2,p=8$o2II9UcENcc5k5ikpeZyPw$RWOMOY8i
 (60, 'Shane', '$argon2id$v=19$m=102400,t=2,p=8$lL2FkOtNLi9sFIsAQcbxaA$DY3ixeZzDNwpnj5cD3V32w');
 
 INSERT INTO "Data" ("playerID", "playerWins", "houseWins", "winPercentage")
-VALUES 
-(50, 70, 45, '60.87%'),
+VALUES (50, 70, 45, '60.87%'),
 (51, 0, 100, '0.0%'),
 (52, 34, 90, '27.42%'),
 (53, 100, 100, '50.0%'),
@@ -48,5 +47,6 @@ VALUES
 (57, 54, 50, '51.92%'),
 (58, 600, 79, '88.37%'),
 (59, 345, 300, '53.49%'),
-(60, 6, 5, '54.55%');
+(60, 6, 5, '54.55%'),
+(61, 15, 50, '23.08%');
 */
