@@ -496,17 +496,17 @@ if commit == True:
         houseWins = houseWins[0]
     #end if
     
-    #Caculate total wins for the house and player
+    #Calculate total wins for the house and player
     updatedHouseWins = houseWins + HScore
     updatedPlayerWins = previousWins + PScore
     
-    #Caculate the in percentage of the player
+    #Calculate the in percentage of the player
     totalWins = updatedPlayerWins + updatedHouseWins
     winPercantage = (updatedPlayerWins / totalWins) * 100
     winPercantage = round(winPercantage, 2)
     winPercantage = str(winPercantage) + '%'
     
-    #Added it to a dictinoary for binding
+    #Added it to a dictionary for binding
     userData = ({'totalWins': updatedPlayerWins, 'houseWins': updatedHouseWins, 'winPercent': winPercantage , 'userID': userID})
     
     #Add the data to the database and then close the connection
@@ -517,8 +517,8 @@ if commit == True:
     cursor.execute("SELECT Players.username, Data.playerWins, Players.userID, Data.winPercentage FROM Players, Data WHERE Players.userID = Data.playerID ORDER BY Data.winPercentage DESC")
     search = cursor.fetchall()
     
-    #Display the leaderbaord to the user
-    print("\nThe leaderbaord as it stands: ")
+    #Display the leaderboard to the user
+    print("\nThe leaderboard as it stands: ")
     
     for name in search:
         if name[2] == userID:
