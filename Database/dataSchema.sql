@@ -1,4 +1,4 @@
--- This file puts artifical data into the database, ONLY user after running the main schema.sql file
+-- This file puts artificial data into the database, ONLY user after running the main schema.sql file
 
 INSERT INTO "Players" ("userID", "username", "password") 
 VALUES ('61', 'Jace', '$argon2id$v=19$m=102400,t=2,p=8$o2II9UcENcc5k5ikpeZyPw$RWOMOY8indklWJPaI3Ri8Q'), 
